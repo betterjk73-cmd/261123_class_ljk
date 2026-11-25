@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>MELLOW BEAN — 말랑한 동네 찻집 (Plan B 민트 소다)</title>
+  <meta name="description" content="딸기라떼, 시트러스 에이드, 핸드드립이 있는 동네 레트로 찻집 MELLOW BEAN">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 헤더 -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo">MELLOW BEAN</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">메뉴 열기</span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">소개</a>
+        <a href="#menu">메뉴</a>
+        <a href="#visit">오시는 길</a>
+      </nav>
+    </div>
+    <div class="stripes" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  </header>
+
+  <main id="top">
+
+    <!-- 히어로 -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">동네 레트로 찻집</p>
+          <h1 class="hero-title">말랑한 하루,<br>한 잔의 수다</h1>
+          <p class="hero-lead">톡 쏘는 에이드부터 고소한 라떼까지.<br>친구랑 오래 떠들다 가도 괜찮은 곳이에요.</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">메뉴 보기</a>
+            <a href="#visit" class="btn btn-ghost">오시는 길</a>
+          </div>
+        </div>
+
+        <div class="hero-photos">
+          <figure class="polaroid polaroid--1">
+            <img src="../images/latte-with-cookie.jpg" alt="쿠키를 곁들인 라떼 한 잔" width="1200" height="1010">
+            <figcaption>오늘의 라떼</figcaption>
+          </figure>
+          <figure class="polaroid polaroid--2">
+            <img src="../images/strawberry-latte.jpg" alt="딸기를 올린 분홍색 딸기라떼" width="875" height="1200">
+            <figcaption>딸기라떼</figcaption>
+          </figure>
+          <figure class="polaroid polaroid--3">
+            <img src="../images/citrus-ade.jpg" alt="줄무늬 빨대를 꽂은 노란 시트러스 에이드" width="904" height="1200">
+            <figcaption>시트러스 에이드</figcaption>
+          </figure>
+          <p class="sticker" id="open-status">오늘도<br>영업중</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 흐르는 띠 -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>딸기라떼</span><span>시트러스 에이드</span><span>핸드드립</span><span>티라미수</span><span>라떼</span>
+        <span>딸기라떼</span><span>시트러스 에이드</span><span>핸드드립</span><span>티라미수</span><span>라떼</span>
+      </div>
+    </div>
+
+    <!-- 소개 -->
+    <section class="about" id="about">
+      <div class="container about-inner">
+        <div class="about-photos">
+          <figure class="polaroid polaroid--wide">
+            <img src="../images/cafe-interior.jpg" alt="큰 창과 야자수 화분이 있는 넓은 매장 내부" width="1200" height="816" loading="lazy">
+            <figcaption>햇빛 잘 드는 자리</figcaption>
+          </figure>
+          <figure class="polaroid polaroid--small">
+            <img src="../images/hand-drip-coffee.jpg" alt="구리 주전자로 핸드드립 커피를 내리는 모습" width="1200" height="799" loading="lazy">
+            <figcaption>천천히 내려요</figcaption>
+          </figure>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">우리는<br><span class="hl">수다</span>를 응원해요</h2>
+          <p>MELLOW BEAN은 바쁜 하루 사이에 잠깐 말랑해지는 곳이에요. 커피는 한 잔씩 천천히 내리고, 음료는 생과일로 그날그날 만들어요.</p>
+          <p>노트북 대신 친구를, 빨리 대신 천천히. 오래 머물러도 눈치 주지 않아요.</p>
+          <ul class="facts">
+            <li><strong>생과일</strong> 매일 아침 손질</li>
+            <li><strong>핸드드립</strong> 주문 즉시 추출</li>
+            <li><strong>디저트</strong> 매장에서 직접</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 메뉴 -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <h2 class="section-title section-title--center">메뉴판</h2>
+
+        <div class="menu-layout">
+          <!-- 시그니처 -->
+          <article class="signature">
+            <p class="signature-badge">시그니처</p>
+            <figure class="polaroid polaroid--signature">
+              <img src="../images/citrus-ade.jpg" alt="시트러스 에이드" width="904" height="1200" loading="lazy">
+            </figure>
+            <h3 class="signature-name">시트러스 에이드</h3>
+            <p class="signature-desc">귤·레몬·자몽을 매일 아침 짜서 탄산에 톡. 우리 가게 귤색이 바로 이 색이에요.</p>
+            <p class="signature-price">5,800원</p>
+          </article>
+
+          <!-- 메뉴 보드 -->
+          <div class="menu-board">
+            <section class="menu-group">
+              <h3 class="menu-group-title">커피</h3>
+              <ul class="menu-list">
+                <li><span class="item">아메리카노</span><span class="price">4,000</span></li>
+                <li><span class="item">카페라떼</span><span class="price">4,800</span></li>
+                <li><span class="item">오늘의 핸드드립</span><span class="price">5,500</span></li>
+                <li><span class="item">바닐라 빈 라떼</span><span class="price">5,300</span></li>
+              </ul>
+            </section>
+
+            <section class="menu-group">
+              <h3 class="menu-group-title">논커피</h3>
+              <ul class="menu-list">
+                <li><span class="item">딸기라떼</span><span class="price">6,500</span></li>
+                <li><span class="item">시트러스 에이드</span><span class="price">5,800</span></li>
+                <li><span class="item">자몽 에이드</span><span class="price">5,800</span></li>
+                <li><span class="item">밀크티</span><span class="price">5,500</span></li>
+              </ul>
+            </section>
+
+            <section class="menu-group menu-group--dessert">
+              <h3 class="menu-group-title">디저트</h3>
+              <div class="dessert-row">
+                <ul class="menu-list">
+                  <li><span class="item">티라미수</span><span class="price">6,800</span></li>
+                  <li><span class="item">초코칩 쿠키</span><span class="price">2,800</span></li>
+                  <li><span class="item">버터 스콘</span><span class="price">3,500</span></li>
+                </ul>
+                <figure class="polaroid polaroid--mini">
+                  <img src="../images/tiramisu.jpg" alt="초콜릿 장식을 올린 티라미수" width="1200" height="904" loading="lazy">
+                  <figcaption>티라미수</figcaption>
+                </figure>
+              </div>
+            </section>
+            <p class="menu-note">가격 단위: 원 · 모든 음료 아이스 가능</p>
+          </div>
+        </div>
+
+        <figure class="polaroid polaroid--latte">
+          <img src="../images/latte-art.jpg" alt="나뭇잎 모양 라떼아트가 그려진 라떼" width="1200" height="1037" loading="lazy">
+          <figcaption>라떼아트는 그날 기분대로</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 오시는 길 -->
+    <section class="visit" id="visit">
+      <div class="container visit-inner">
+        <div class="visit-text">
+          <h2 class="section-title">놀러 오세요</h2>
+          <dl class="info">
+            <div><dt>주소</dt><dd>서울시 마포구 말랑로 12, 1층</dd></div>
+            <div><dt>전화</dt><dd><a href="tel:0212345678">02-1234-5678</a></dd></div>
+            <div><dt>인스타그램</dt><dd><a href="#">@mellowbean</a></dd></div>
+          </dl>
+        </div>
+        <div class="hours-card">
+          <h3 class="hours-title">영업시간</h3>
+          <table class="hours">
+            <tbody>
+              <tr data-days="1,2,3,4,5"><th scope="row">평일</th><td>10:00 – 21:00</td></tr>
+              <tr data-days="6,0"><th scope="row">주말</th><td>11:00 – 22:00</td></tr>
+              <tr class="closed"><th scope="row">휴무</th><td>매월 첫째 월요일</td></tr>
+            </tbody>
+          </table>
+          <p class="hours-note">라스트 오더는 마감 30분 전이에요.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 지도 -->
+    <section class="map" id="map">
+      <div class="container">
+        <h2 class="section-title section-title--center">여기 있어요</h2>
+        <div class="map-frame">
+          <img src="../images/cafe-map.png" alt="반월당역 근처 MELLOW BEAN 위치 지도" width="667" height="698" loading="lazy">
+          <span class="map-marker" aria-hidden="true"></span>
+        </div>
+        <p class="map-caption">빨간 동그라미가 MELLOW BEAN이에요</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="stripes" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div class="container footer-inner">
+      <p class="logo logo--footer">MELLOW BEAN</p>
+      <p>&copy; <span id="year">2026</span> MELLOW BEAN. 말랑한 하루 되세요.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
